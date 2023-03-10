@@ -1,10 +1,7 @@
 /**
 * @file Test.cpp
-* @description AVL aðacý kullanarak sayýlar bulma
-* @course 1.Öðretim A
-* @assignment 2.Ödev
-* @date 16.08.2022
-* @author Ecem AMANVERMEZ
+* @description AVL aÃ°acÃ½ kullanarak sayÃ½lar bulma
+* @author Ecem 
 */
 
 
