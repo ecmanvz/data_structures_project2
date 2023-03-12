@@ -1,6 +1,6 @@
 /**
 * @file Test.cpp
-* @description AVL aðacý kullanarak sayýlar bulma
+* @description AVL aðacý kullanarak sayilar bulma
 * @author Ecem 
 */
 
