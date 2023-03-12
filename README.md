@@ -1,5 +1,28 @@
 # data_structures_project2
-Program açıldığında klasörde Sayılar.txt dosyasını arıyor. Dosyada yazılı olan satırları satır satır okuyarak SatirEkle fonksiyonuna gönderiyor, bu fonksiyon aynı anda parametre olarak AVL ağacını alıyor, 
-Satırdaki sayılar diziye atandıktan sonra Radix Sort sıralama algoritması ile sıralanıyor ve daha sonra AVL ağaca ekleniyor.
-AVL Ağacında her düğüm eklendiğinden sonra dengeleme işleminde SeviyeUp veya SeviyeDown fonksiyonları çağrılıyor, 
-Bu fonksiyonlar özyinelemeli fonksiyon olarak çağrılan dügümün alt düğümlerinde çağrılmaya başlıyor ve ödevde verilen şartlara göre düğümde olan dizinin son veya ilk sayısı siliniyor.
+
+
+• When the program opens, it looks for the Numbers.txt file in the folder. It reads the lines written in the file line by line and sends them to the Add Line function, this function simultaneously takes the AVL tree as a parameter,<br>
+• After the numbers in the row are assigned to the array, they are sorted with the Radix Sort sorting algorithm and then added to the AVL tree.
+LevelUp or LevelDown functions are called in the balancing process after each node is added in the AVL Tree,<br>
+• These functions start to be called on the child nodes of the node that are called as recursive functions, and the last or first number of the sequence in the node is deleted according to the conditions given in the assignment.<br>
+
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```javascript
+#include "AVL.hpp"
+#include "Radix.hpp"
+#include <fstream>
+#include <sstream>
+
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+
+
+
